@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Sebastian Fernandez</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="script.js">
+    
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom bg-primary">
+        <div class="container">
+            <a class="navbar-brand text-light" href="#">Portafolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-light border border-white rounded p-2"
+                            href="https://drive.google.com/file/d/1M4nZyUyv4W8K7hQ3yzIrfwmyr3Zr5LOt/view?usp=drive_link"
+                            target="_blank">Currículum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light border border-white rounded p-2"
+                            href="#" data-bs-toggle="modal" data-bs-target="#contactModal">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="text-center mt-5">
+        <h1>Bienvenido a mi Portafolio</h1>
+        <p class="lead">Una muestra de mis habilidades, proyectos y logros.</p>
+    </header>
+    <section id="skills" class="container mt-5">
+        <h2 class="text-center">Habilidades</h2>
+        <ul class="skills-list list-unstyled d-flex justify-content-center">
+            <li class="me-3">HTML</li>
+            <li class="me-3">CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <!DOCTYPE html>
+    <html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafolio Sebastian Fernandez</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <section class="custom-section">
+            <div class="container mt-4">
+                <div class="row">
+                    <!-- Cards de la fila superior -->
+                    <div class="col-md-4">
+                        <div class="card mb-3 card-border-color">
+                            <!-- Agregamos la clase "d-flex justify-content-center" al div que contiene la imagen -->
+                            <div class="d-flex justify-content-center">
+                                <img src="./imagen/Gohanflex.png" class="card-img-top" alt="Imagen 1" style="max-height: 300px; width: auto;">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-size: 40px;">🥢 Gohan Flex</h5>
+                                <p class="card-text" style="font-size: 14px;">Una Página de Sushi, Creada con Html, Css, Boostrap5, Siendo una página Responsive.</p>
+                                <a href="https://sebastianfernandez22.github.io/Sushi-Web/" class="btn btn-primary btn-color-especial">Ir al Proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="card mb-3 card-border-color">
+                            <img src="" class="card-img-top" alt="Proyecto en proceso">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-size: 18px;">Proyecto 2</h5>
+                                <p class="card-text" style="font-size: 14px;"></p>
+                                <a href="#" class="btn btn-primary btn-color-especial">Ir al Proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="card mb-3 card-border-color">
+                            <img src="" class="card-img-top" alt="Proyecto en proceso">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-size: 18px;">Proyecto 3</h5>
+                                <p class="card-text" style="font-size: 14px;"></p>
+                                <a href="#" class="btn btn-primary btn-color-especial">Ir al Proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Modal -->
+        <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="contactModalLabel">Información de Contacto</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Telefono: <a href="https://wa.me/+56979671069" target="_blank">+569-79671069</a></p>
+                        <p>Correo: <a href="mailto:seba.fernandez1@hotmail.com"
+                                target="_blank">seba.fernandez1@hotmail.com</a></p>
+                        <p>LinkedIn: <a href="https://www.linkedin.com/in/sebastian-fernandez-9b907619a/"
+                                target="_blank">https://www.linkedin.com/in/sebastian-fernandez-9b907619a/</a></p>
+                        <p>GitHub: <a href="https://github.com/Sebastianfernandez22"
+                                target="_blank">https://github.com/Sebastianfernandez22</a></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="footer text-center mt-5 fixed-bottom bg-primary text-light py-3 custom-footer">
+            <p>&copy; 2023 La página que estas visualizando es un proyecto más de mi portafolio</p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+
+    </html>

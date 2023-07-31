@@ -1,0 +1,59 @@
+/* styles.css */
+.navbar-custom {
+    background-color: #3f5cdd !important; /* Cambiar este color al que desees */
+}
+.custom-footer {
+    padding-top: 0.1rem !important; /* Ajusta el valor según tus preferencias */
+    padding-bottom: 0.1rem !important; /* Ajusta el valor según tus preferencias */
+    background-color: #3f5cdd !important; /* Cambiar este color al que desees */
+
+}
+/* style.css o dentro de la etiqueta <style> en <head> */
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+  }
+.nav-item {
+    color: white;
+    font-weight: bold;
+  }
+  .footer {
+    color: white;
+    font-weight: bold;
+  }
+.modal-body {
+    color: rgb(0, 0, 0);
+    font-weight: bold; 
+}
+.text-center {
+    color: #3f5cdd;
+}
+.lead {
+    color: rgb(0, 0, 0);
+}
+img {
+  max-width: 200px !important; /* Puedes ajustar este valor según tu preferencia */
+  height: auto; /* Esta propiedad mantiene la proporción de la imagen */
+}
+.card {
+  margin-bottom: 20px;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.btn {
+  margin-top: 10px;
+}
+.card-img-top{
+    height: 260px;
+    object-fit: cover;
+}
+.card-border-color{
+    border-color: solid 2px #000000 !important;
+    border: 1px solid #131313!important;
+}
+.navbar-nav .nav-item {
+  margin-right: 20px; /* Puedes ajustar este valor para obtener la separación deseada */
+}
