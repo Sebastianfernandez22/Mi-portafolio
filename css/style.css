@@ -1,11 +1,11 @@
 /* styles.css */
 .navbar-custom {
-    background-color: #3f5cdd !important; /* Cambiar este color al que desees */
+    background-color: #e9101073 !important; /* Cambiar este color al que desees */
 }
 .custom-footer {
     padding-top: 0.1rem !important; /* Ajusta el valor según tus preferencias */
     padding-bottom: 0.1rem !important; /* Ajusta el valor según tus preferencias */
-    background-color: #3f5cdd !important; /* Cambiar este color al que desees */
+    background-color: #e9101073 !important; /* Cambiar este color al que desees */
 
 }
 /* style.css o dentro de la etiqueta <style> en <head> */
@@ -26,10 +26,17 @@
     font-weight: bold; 
 }
 .text-center {
-    color: #3f5cdd;
+    color: rgb(0, 0, 0);
+    font-family: 'Noto Serif Vithkuqi', serif;
+
 }
 .lead {
-    color: rgb(0, 0, 0);
+    color: rgb(78, 0, 223);
+    font-family: 'Noto Serif Vithkuqi', serif;
+}
+.container {
+  color: rgb(78, 0, 223);
+  font-family: 'Noto Serif Vithkuqi', serif;
 }
 img {
   max-width: 200px !important; /* Puedes ajustar este valor según tu preferencia */
@@ -57,3 +64,4 @@ img {
 .navbar-nav .nav-item {
   margin-right: 20px; /* Puedes ajustar este valor para obtener la separación deseada */
 }
+
