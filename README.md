@@ -5,4 +5,4 @@ En mis proyectos, me enorgullezco de aplicar mi pasión por la innovación y el 
 
 En el ámbito [nombre de la industria o campo de trabajo específico], he liderado y participado en proyectos que han transformado negocios y han creado impacto significativo. Mi enfoque se centra en la resolución creativa de problemas, siempre buscando soluciones efectivas y eficientes. Mi experiencia en este campo me ha permitido entender la importancia de la adaptabilidad y la colaboración, lo que ha contribuido al éxito de mis proyectos a lo largo del tiempo.
 
-[![Screenshot-1.png](https://i.postimg.cc/PqnKqrBy/Screenshot-1.png)](https://postimg.cc/tsDFSyRn)
+[![img-portafolio.png](https://i.postimg.cc/hvm1nkp6/img-portafolio.png)](https://postimg.cc/YLpWfscz)
